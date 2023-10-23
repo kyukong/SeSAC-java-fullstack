@@ -1,12 +1,12 @@
 # SeSAC-java-fullstack
 [새싹캠퍼스] 현대IT&E 채용연계형 8기 MSA 기반 FullStack 전문가 양성 과정
 
-## 과정안내
+## 🌱 과정안내
 
 - **강의일정** : 2023. 10. 16  - 2024. 03. 15 (월~금, 09:00 – 18:00, 총 840시간)
 - **강의장소** : 서울특별시 성동구 자동차시장1길 64 청년취업사관학교 성동캠퍼스 2층 클래스룸 2
 
-## 학습내용
+## 📑 학습내용
 
 ### Java
 - [[10/16] Java (환경설정, 자료형)](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/java/%5B10-16%5D_Java_(%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95%2C%EC%9E%90%EB%A3%8C%ED%98%95).md)
