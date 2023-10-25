@@ -1,4 +1,5 @@
 # SeSAC-java-fullstack
+
 [새싹캠퍼스] 현대IT&E 채용연계형 8기 MSA 기반 FullStack 전문가 양성 과정
 
 ## 🌱 과정안내
@@ -9,6 +10,7 @@
 ## 📚 교재목록
 
 - [Do it! 자바 완전 정복](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=278341980)
+- [한번에 이해되는 Oracle SQL & PL/SQL](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=43633426&start=slayer)
 
 ## 📑 학습내용
 
