@@ -1,0 +1,133 @@
+# [10/25] Oracle
+
+## Oracle 설치
+
+- oracle 21c download
+    - Oracle 에서 Mac 버전을 지원하지 않아 Docker 위에 설치 진행
+        - [참고 사이트](https://velog.io/@devsaza/M1-M2-Mac-OS%EC%97%90%EC%84%9C-Oracle-DB-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0#colima-%EC%84%A4%EC%B9%98)
+        - mac 환경에서 편리하게 oracle 사용하기 위해 여러 툴 설치 병행 (colima, sqlplus 등)
+    - colima
+
+        ```bash
+        $ colima start --memory 4 --arch x86_64
+        $ docker ps
+        ```
+
+    - sqlplus
+        - docker exec -it {컨테이너명} sqlplus \nolog
+    - docker
+
+        ```bash
+        $ docker run \
+         --restart unless-stopped \
+         --name {컨테이너명} \
+         -e ORACLE_PASSWORD={Oracle 비밀번호} \
+         -p 1521:1521 \
+         -d \
+         gvenzl/oracle-xe
+        ```
+
+        - name : docker container 이름
+        - ORACLE_PASSWORD : oracle password
+    - oracle 계정 정보
+        - sys
+        - system
+- oracle sql developer → GUI 툴
+- oracle data modeler → ERD 툴
+
+## Oracle 기본 환경 설정
+
+### 1. 기본 데이터베이스 설정
+
+- 기본으로 생성되는 데이터베이스 확인 → xepdb1(XEPDB1)
+
+    ```sql
+    SQL> col name for a30
+    SQL> col pdb for a30
+    SQL> select name, pdb
+      2  from v$services
+      3  order by name;
+    
+    NAME			       PDB
+    ------------------------------ ------------------------------
+    SYS$BACKGROUND		       CDB$ROOT
+    SYS$USERS		       CDB$ROOT
+    xe			       CDB$ROOT    <- CDB(Container Database)
+    xeXDB			       CDB$ROOT
+    xepdb1			       XEPDB1 -> 기본 데이터베이스, PDB(Pluggable Database), 우리가 사용할 DB
+    ```
+
+- 기본 데이터베이스 설정
+
+    ```sql
+    SQL> alter session set container = xepdb1;
+    
+    Session altered.
+    
+    SQL> show con_name
+    
+    CON_NAME
+    ------------------------------
+    XEPDB1
+    ```
+
+
+### 2. 사용자 생성 및 계정 부여
+
+- 사용자 추가
+
+    ```sql
+    SQL> create user ace -> user name
+      2  identified by {비밀번호} -> password
+      3  default tablespace users
+      4  temporary tablespace temp;
+    
+    User created.
+    ```
+
+- 테이블에 무제한 권한 부여
+
+    ```bash
+    SQL> alter user ace
+           quota unlimited on users;
+    ```
+
+    - 사용자 권한을 부여할 수 있는 계정으로 접속 후 실행 (sys)
+- 사용자 권한 설정
+
+    ```sql
+    SQL> grant connect,
+      2  resource,  
+      3  create session,
+      4  create table,
+      5  create procedure,
+      6  create trigger,
+      7  create view,
+      8  create sequence
+      9  to ace;
+    
+    Grant succeeded.
+    ```
+
+- oracle 종료
+
+    ```sql
+    SQL> quit
+    Disconnected from Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+    Version 21.3.0.0.0
+    ```
+
+
+### 3. 원하는 계정으로 접속
+
+- 관리자 계정으로 sqlplus 접속
+
+    ```bash
+    $ docker exec -it {컨테이너명} sqlplus /nolog
+    
+    SQL> conn sys/oracle@localhost:1521/xepdb1 as sysdba
+    ```
+
+    - /nolog : 터미널에서 접속 시 상단에 띄워지는 계정 정보 감추기
+    - sqlplus 내에서 특정 계정으로 접속
+    - conn {계정명}/{비밀번호}@{host}:{port}/{database}
