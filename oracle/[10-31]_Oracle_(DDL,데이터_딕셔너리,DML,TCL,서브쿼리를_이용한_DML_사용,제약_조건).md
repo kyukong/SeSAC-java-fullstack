@@ -318,16 +318,18 @@ where deptno = (select deptno
 - 테이블에 부적절한 자료가 입력되는 것을 방지하기 위해 테이블 생성할 때 각 컬럼에 대해 규칙을 정의하는 것
 - 무결성 == 정확성
 - not null : null 허용 불가
-    - not null 제약조건은 유일하게 컬럼 제약조건 → 컬럼 옆에 선언하여 정의
-    - 컬럼 제약조건의 경우 임의로 설정하기 어려워 테이블 제약조건인 check 를 사용하는 추세
+  - not null 제약조건은 유일하게 컬럼 제약조건 → 컬럼 옆에 선언하여 정의
+  - 컬럼 제약조건의 경우 임의로 설정하기 어려워 테이블 제약조건인 check 를 사용하는 추세
 - unique : 중복된 값 허용 불가
-    - null 은 값(value)이 아니므로 unique 체크가 되지 않아 null 허용
-    - null 을 허용하고 싶지 않을 경우 not null 을 더하거나, primary key 설정할 것
+  - null 은 값(value)이 아니므로 unique 체크가 되지 않아 null 허용
+  - null 을 허용하고 싶지 않을 경우 not null 을 더하거나, primary key 설정할 것
 - primary key : not null + unique
-    - 추가 작업을 수행하기 전에 테이블 내 이미 저장된 정보를 모두 조회 후 이미 입력된 정보가 아닐 경우에 추가
+  - 추가 작업을 수행하기 전에 테이블 내 이미 저장된 정보를 모두 조회 후 이미 입력된 정보가 아닐 경우에 추가
 - foreign key : 참조되는 테이블에서 컬럼의 값이 존재
+  - 참조된 부모 테이블의 컬럼은 기본 키나 유일 키로 설정되어 있어야 함
+  - 참조한 테이블에 데이터를 삽입할 때마다 부모 테이블에 부모 키로 설정된 컬럼이 있는지 확인
 - check : 저장 가능한 데이터 값의 범위나 조건을 지정하여 설정한 값만 허용
-    - check(column is not null) ⇒ 테이블 단위 제약조건
+  - check(column is not null) ⇒ 테이블 단위 제약조건
 
 ```sql
 select constraint_name, constraint_type, table_name
@@ -344,3 +346,12 @@ CH_MYCHECK	C	TEST03
 ```
 
 - SYS_C008258 와 SYS_C008259 는 지정되지 않아 임의로 작성된 제약조건 이름
+
+## 컬럼 레벨로 제약 조건 이름을 명시해서 제약 조건 설정하기
+
+```sql
+column_name data_type constraint constraint_name constraint_type
+```
+
+- 명명규칙 : `[테이블명]_[컬럼명]_[제약조건 유형]`
+- 테이블 생성 시 create 문의 컬럼 정의할 때 옆에 작성
