@@ -11,6 +11,7 @@
 
 - [Do it! 자바 완전 정복](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=278341980)
 - [한번에 이해되는 Oracle SQL & PL/SQL](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=43633426&start=slayer)
+- [Do it! HTML + CSS + 자바스크립트 웹 표준의 정석](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=260235280)
 
 ## 📑 학습내용
 
