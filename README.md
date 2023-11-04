@@ -40,3 +40,7 @@
 | 11/1(수)  | 뷰, TOP-IN                                                                         | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/oracle/%5B11-1%5D_Oracle_(%EB%B7%B0%2CTOP-IN).md)                                                                                                                                                                                                             |
 | 11/2(목)  | 시퀀스, DB 서버 구조, 인덱스, 권한, 롤, 동의어                                                    | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/oracle/%5B11-2%5D_Oracle_(%EC%8B%9C%ED%80%80%EC%8A%A4%2CDB_%EC%84%9C%EB%B2%84_%EA%B5%AC%EC%A1%B0%2C%EC%9D%B8%EB%8D%B1%EC%8A%A4%2C%EA%B6%8C%ED%95%9C%2C%EB%A1%A4%2C%EB%8F%99%EC%9D%98%EC%96%B4).md)                                                            |
 | 11/3(금)  | Rollup, Cube, 계층형 쿼리, 수도 컬럼, Grouping Sets, With 절, Muliple Column 서브 쿼리, JDBC 연결 | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/oracle/%5B11-3%5D_Oracle_(Rollup%2CCube%2C%EA%B3%84%EC%B8%B5%ED%98%95_%EC%BF%BC%EB%A6%AC%2C%EC%88%98%EB%8F%84_%EC%BB%AC%EB%9F%BC%2CGrouping_Sets%2CWith_%EC%A0%88%2CMuliple_Column_%EC%84%9C%EB%B8%8C_%EC%BF%BC%EB%A6%AC%2CJDBC_%EC%97%B0%EA%B2%B0).md)       |
+
+## 📋 스터디
+
+- [코딩테스트 스터디 (11/3 ~ )](https://github.com/kyukong/SeSAC-Algo)
