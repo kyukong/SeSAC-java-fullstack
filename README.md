@@ -15,7 +15,7 @@
 
 ## 📑 학습내용
 
-### Java
+### [1. Java](https://github.com/kyukong/SeSAC-java-fullstack/tree/main/1.%20java)
 
 | Date     | Content                                | Link                                                                                                                                                                                                                                                                                                                         |
 |----------|----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -28,7 +28,7 @@
 | 10/24(화) | 동일성과 동등성, 컬렉션 프레임워크, 람다식               | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/1.%20java/%5B10-24%5D%EB%8F%99%EC%9D%BC%EC%84%B1%EA%B3%BC_%EB%8F%99%EB%93%B1%EC%84%B1%2C%EC%BB%AC%EB%A0%89%EC%85%98_%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%2C%EB%9E%8C%EB%8B%A4%EC%8B%9D.md)                                                         |
 | 10/25(수) | 람다식, 자바 입출력, 직렬화, 문자셋                  | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/1.%20java/%5B10-25%5D%EB%9E%8C%EB%8B%A4%EC%8B%9D%2C%EC%9E%90%EB%B0%94_%EC%9E%85%EC%B6%9C%EB%A0%A5%2C%EC%A7%81%EB%A0%AC%ED%99%94%2C%EB%AC%B8%EC%9E%90%EC%85%8B.md)                                                                                           |
 
-### Oracle
+### [2. Oracle](https://github.com/kyukong/SeSAC-java-fullstack/tree/main/2.%20oracle)
 
 | Date     | Content                                                                           | Link                                                                                                                                                                                                                                                                                                                      |
 |----------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -40,6 +40,14 @@
 | 11/1(수)  | 뷰, TOP-IN                                                                         | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/2.%20oracle/%5B11-1%5D%EB%B7%B0%2CTOP-IN.md)                                                                                                                                                                                                             |
 | 11/2(목)  | 시퀀스, DB 서버 구조, 인덱스, 권한, 롤, 동의어                                                    | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/2.%20oracle/%5B11-2%5D%EC%8B%9C%ED%80%80%EC%8A%A4%2CDB_%EC%84%9C%EB%B2%84_%EA%B5%AC%EC%A1%B0%2C%EC%9D%B8%EB%8D%B1%EC%8A%A4%2C%EA%B6%8C%ED%95%9C%2C%EB%A1%A4%2C%EB%8F%99%EC%9D%98%EC%96%B4.md)                                                            |
 | 11/3(금)  | Rollup, Cube, 계층형 쿼리, 수도 컬럼, Grouping Sets, With 절, Muliple Column 서브 쿼리, JDBC 연결 | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/2.%20oracle/%5B11-3%5DRollup%2CCube%2C%EA%B3%84%EC%B8%B5%ED%98%95_%EC%BF%BC%EB%A6%AC%2C%EC%88%98%EB%8F%84_%EC%BB%AC%EB%9F%BC%2CGrouping_Sets%2CWith_%EC%A0%88%2CMuliple_Column_%EC%84%9C%EB%B8%8C_%EC%BF%BC%EB%A6%AC%2CJDBC_%EC%97%B0%EA%B2%B0.md)       |
+
+### [3. Web](https://github.com/kyukong/SeSAC-java-fullstack/tree/main/3.%20web/1.%20html)
+
+| Date    | Subject | Content               | Link                                                                                                                                             |
+|---------|---------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| 11/6(월) | HTML    | HTML 의 기초, emmet, Tag | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/3.%20web/1.%20html/%5B11-6%5DHTML%EC%9D%98_%EA%B8%B0%EC%B4%88%2Cemmet%2CTag.md) |
+| 11/7(화) | HTML    |                       | Link                                                                                                                                             |
+|         | CSS     |                       | Link                                                                                                                                             |
 
 ## 📋 스터디
 
