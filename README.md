@@ -53,6 +53,9 @@
 | 6  | 11/10(금) | JS            | 이벤트, DOM, 내장 객체, 브라우저 객체, 노드 생성 및 제거                 | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/3.%20web/3.%20js/%5B11-10%5D%EC%9D%B4%EB%B2%A4%ED%8A%B8%2CDOM%2C%EB%82%B4%EC%9E%A5_%EA%B0%9D%EC%B2%B4%2C%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80_%EA%B0%9D%EC%B2%B4%2C%EB%85%B8%EB%93%9C_%EC%83%9D%EC%84%B1_%EB%B0%8F_%EC%A0%9C%EA%B1%B0.md)                                                                                                                                   |
 | 7  | 11/13(월) | JSP & Servlet | Tomcat, JSP, Servlet                                 | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/3.%20web/4.%20jsp-servlet/%5B11-13%5DTomcat%2CJSP%2CServlet.md)                                                                                                                                                                                                                                                                                                            |
 
+## 👩🏻‍💻 개인 프로젝트
+- [자바로 구현한 채팅 어플리케이션 (11/4 ~ )](https://github.com/kyukong/java-chat)
+
 ## 📋 스터디
 
 - [코딩테스트 스터디 (11/3 ~ )](https://github.com/kyukong/SeSAC-Algo)
