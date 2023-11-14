@@ -1,4 +1,65 @@
-# [11/13] JSP (Tomcat, JSP, Servlet)
+# [11/13] JSP (HTTP, Tomcat, JSP, Servlet)
+
+## HTTP (HyperText Transper Protocol)
+
+- HTTP : 웹 클라이언트와 웹 서버가 소켓(Socket) 통신 시 사용하는 메시지의 규약
+    - TCP/IP 프로토콜로 데이터 전달
+    - TCP : Transmission Control Protocol
+    - POST : **스트림 형태로 입력 데이터가 전송**되므로 전송 용량에 제한 받지 않음
+        - 문자 및 바이너리(파일)를 전송할 수 있음
+
+![](docs/2.png)
+
+- HTTP Request Message
+
+    ```
+    [요청방식] [요청 자료의 경로] [HTTP 버전]
+    헤더명: 헤더값
+    헤더명: 헤더값
+    ...
+    
+    전달 데이터 (옵션)
+    ```
+
+    ```
+    GET /index.jsp HTTP/1.1
+    Host: localhost:80
+    ```
+
+- HTTP Response Message
+
+    ```
+    [HTTP 버전] [응답코드] [간단한 설명]
+    헤더명: 헤더값
+    헤더명: 헤더값
+    ...
+    
+    전달 데이터 (옵션)
+    ```
+
+    ```
+    Http/1.1 200
+    Set-Cookie: JSESSION=asdf; Path=/; HttpOnly
+    Content-Type: text/html;charset=UTF-8
+    Content-Length: 169
+    Date: Mon, 13 Nov 2023 02:36:13 GMT
+    
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    </head>
+    <body>
+    	<h1>Hello Servlet/JSP</h1>
+    	Hello World
+    </body>
+    </html>
+    ```
+
+    - JSESSION : session key
+        - 첫 접속 시 발급
+        - 이후의 통신 시 session key 값으로 connection
 
 ## Tomcat 설치 및 설정
 
@@ -21,10 +82,11 @@
                />
     ```
 
+## Servlet 프로그래밍
 
-## JSP 동작 과정
+- 서버에서 인스턴스 생성 후 사용
 
-- JSP 호출 시 Tomcat 이 Java 클래스로 변경하여 실행
+![](docs/3.png)
 
 ## Servlet 생성하기 (초기의 방법)
 
@@ -168,41 +230,6 @@
     ```
 
 
-## JSP Connection
-
-- HTTP Request Message
-
-    ```
-    GET /index.jsp HTTP/1.1
-    Host: localhost:80
-    ```
-
-- HTTP Response Message
-
-    ```
-    Http/1.1 200
-    Set-Cookie: JSESSION=asdf; Path=/; HttpOnly
-    Content-Type: text/html;charset=UTF-8
-    Content-Length: 169
-    Date: Mon, 13 Nov 2023 02:36:13 GMT
-    
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <meta charset="UTF-8">
-    <title>Insert title here</title>
-    </head>
-    <body>
-    	<h1>Hello Servlet/JSP</h1>
-    	Hello World
-    </body>
-    </html>
-    ```
-
-    - JSESSION : session key
-        - 첫 접속 시 발급
-        - 이후의 통신 시 session key 값으로 connection
-
 ## XMl 설정값 load-on-startup
 
 - load-on-startup : 0 이상일 경우 서버 구동 당시 초기화 후 메모리 로드
@@ -237,7 +264,29 @@
   ![](docs/1.png)
 
 
-## JSP 를 이용하여 화면에 결과 출력
+## JSP (Java Server Page)
+
+- Servlet Class 로 변환 후 컴파일
+- 서버에서 인스턴스 생성 후 사용
+- 클라이언트가 URL 로 실행 요청
+
+![](docs/4.png)
+
+## Servlet vs JSP
+
+### Servlet
+
+- 자바 언어 중심적 동적 파일
+- HTML 응답을 생성하기 보다는 바이너리 응답을 생성
+- 요청 흐름을 제어하는 역할을 주로 진행
+
+### JSP
+
+- 태그 중심적 동적 파일
+- HTML 응답을 생성하여 클라이언트에 보내는 역할
+- 클라이언트의 프레젠테이션이 목적
+
+## JSP 의 활용
 
 ### 1. 내장 객체 JspWriter out 이용
 
