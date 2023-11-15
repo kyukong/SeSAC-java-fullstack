@@ -66,7 +66,7 @@
 - [자바로 구현한 채팅 어플리케이션 (11/4 ~ )](https://github.com/kyukong/java-chat)
 
 ## 👩🏻‍🏫 미니 프로젝트
-- [Servlet Framework 프로젝트](https://github.com/kyukong/SeSAC-Servlet-Framework)
+- [Servlet Framework 프로젝트 (11/14 ~ 11/15)](https://github.com/kyukong/SeSAC-Servlet-Framework)
 
 ## 📋 스터디
 
