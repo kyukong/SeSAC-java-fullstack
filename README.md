@@ -7,6 +7,7 @@
 - [교재목록](#-교재목록)
 - [학습내용](#-학습내용)
 - [개인 프로젝트](#-개인-프로젝트)
+- [미니 프로젝트](#-미니-프로젝트)
 - [스터디](#-스터디)
 
 ## 🌱 과정안내
@@ -63,6 +64,9 @@
 
 ## 👩🏻‍💻 개인 프로젝트
 - [자바로 구현한 채팅 어플리케이션 (11/4 ~ )](https://github.com/kyukong/java-chat)
+
+## 👩🏻‍🏫 미니 프로젝트
+- [Servlet Framework 프로젝트](https://github.com/kyukong/SeSAC-Servlet-Framework)
 
 ## 📋 스터디
 
