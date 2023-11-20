@@ -67,11 +67,11 @@
     - 동일한 스펙을 가지는 컬럼 생성
     - subprogram 의 매개변수 타입 지정
 
+## `%rowtype`
+
 ```text
 [table name]%rowtype;
 ```
-
-## `%rowtype`
 
 - 테이블 row 자체의 정보 접근
 - 특정 테이블 row 정보를 이용하고 싶은 경우 사용
