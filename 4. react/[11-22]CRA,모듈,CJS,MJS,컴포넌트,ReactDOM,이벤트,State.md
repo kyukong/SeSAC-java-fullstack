@@ -34,7 +34,7 @@
 
 - react 는 라이브러리이기 때문에 폴더 구조를 강제하지 않으나 일반적으로 다음과 같은 구조를 많이 사용
 - components : 재사용 가능한 공통 컴포넌트와 관련 파일
-- pages : 페이지 별로 사용되는 컴포넌트와 고나련 파일
+- pages : 페이지 별로 사용되는 컴포넌트와 관련 파일
 - store(context) : 상태 관리 라이브러리(Redux)와 관련된 코드
 - utils : 공통 유틸리티
 - assets : 이미지, 스타일시트, 폰트 등 폴더별로 자원 관리
@@ -126,7 +126,7 @@
         - Singleton 패턴과 동일한 역할
     - 구조 분해 할당(Destructuring assignment)을 하는 경우 export 에 사용된 속성명 사용
 
-        ```jsx
+        ```javascript
         const 변수명 = require(모듈명);
         const { 속성명1, 속성명2, ...} = require(모듈명); // 객체 구조 분해 할당
         ```
@@ -136,7 +136,7 @@
     - 함수, 객체, 값들을 module.exports 에 담아 require 함수에서 반환할 수 있게 함
     - exports 는 module.exports 의 단축어
 
-    ```jsx
+    ```javascript
     // default: 내보낼 대상이 하나만 정의된 경우
     module.exports = { ... };
     
@@ -252,8 +252,6 @@ function WelcomeMsg(props) {
 }
 ```
 
-### 개요
-
 - 매개변수(props) 를 이용하여 데이터를 받을 수 있고, 리액트 엘리먼트를 반환하는 기본 함수가 있으면 함수 컴포넌트
 - 기본으로 내보낼 함수명은 소스코드명(파일명) 과 동일하게 지정
 - 리액트 v16.8 버전부터 지원되는 리액트 훅(React Hook) 전까지는 정적(Static) 인 컴포넌트로 많이 이용
@@ -298,7 +296,7 @@ class WelcomeMsg extends React.Component {
 
 - **컴포넌트의 상태를 동적으로 관리**하기 위해 사용되는 기본 React Hooks 중 하나
 - props 와 다르게 컴포넌트 내부에서 관리
-- useState() Hook 을 이용하여 고나리할 상태를 필요한 만큼 설정
+- useState() Hook 을 이용하여 관리할 상태를 필요한 만큼 설정
     - 리액트의 Hook 은 useXXX() 와 같은 형태로 구성
     - useState() 는 State 라는 Hook 을 의미
 - 상태값 변경 함수로 상태값을 변경하면 컴포넌트는 비동기적으로 리렌더링 됨
