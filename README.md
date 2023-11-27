@@ -75,6 +75,12 @@
 | 4  | 11/23(목) | state, React DOM Router, SPA, Routing                                                                        | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/4.%20react/%5B11-23%5Dstate%2CReact_DOM_Router%2CSPA%2CRouting.md)                                                                                                                                                                                                                                                                               |
 | 5  | 11/24(금) | Outlet, Path Pattern, React Router Hooks, Styled Component, React Context, Context API, Redux, Redux Toolkit | [Link](https://github.com/kyukong/SeSAC-java-fullstack/tree/main/4.%20react)                                                                                                                                                                                                                                                                                                                                      |
 
+### [5. Spring](https://github.com/kyukong/SeSAC-java-fullstack/tree/main/5.%20spring)
+
+| No | Date     | Content                                                  | Link                                                                                                                                                                                                                                                                                |
+|----|----------|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1  | 11/27(월) | 환경설정, 폴더구조, @Configuration, Spring Framework, 제어의 역전, 실습 | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/5.%20spring/%5B11-25%5D%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95%2C%ED%8F%B4%EB%8D%94%EA%B5%AC%EC%A1%B0%2C%40Configuration%2CSpring_Framework%2C%EC%A0%9C%EC%96%B4%EC%9D%98_%EC%97%AD%EC%A0%84%2C%EC%8B%A4%EC%8A%B5.md) |
+
 ## 👩🏻‍💻 개인 프로젝트
 - [자바로 구현한 채팅 어플리케이션 (11/4 ~ )](https://github.com/kyukong/java-chat)
 
