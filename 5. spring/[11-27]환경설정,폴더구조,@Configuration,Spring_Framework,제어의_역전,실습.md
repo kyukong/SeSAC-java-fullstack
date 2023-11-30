@@ -1,4 +1,4 @@
-# [11/25] Spring (환경설정, 폴더구조, @Configuration, Spring Framework, 제어의 역전, 실습)
+# [11/27] Spring (환경설정, 폴더구조, @Configuration, Spring Framework, 제어의 역전, 실습)
 
 ## 환경설정
 
