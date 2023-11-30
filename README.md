@@ -85,9 +85,11 @@
 | 4  | 11/30(목) | 파일 업로드, MyBatis CRUD                                     | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/5.%20spring/%5B11-30%5D%ED%8C%8C%EC%9D%BC_%EC%97%85%EB%A1%9C%EB%93%9C%2CMyBatis_CRUD.md)                                                                                                                                                                                                    |
 
 ## 👩🏻‍💻 개인 프로젝트
-- [자바로 구현한 채팅 어플리케이션 (11/4 ~ )](https://github.com/kyukong/java-chat)
+
+- [React 로 구현하는 To-do List (11/30)](https://github.com/kyukong/react-to-do)
 
 ## 👩🏻‍🏫 미니 프로젝트
+
 - [Servlet Framework 프로젝트 (11/14 ~ 11/15)](https://github.com/kyukong/SeSAC-Servlet-Framework)
 
 ## 📋 스터디
