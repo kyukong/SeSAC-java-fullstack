@@ -20,6 +20,9 @@
 - [Do it! 자바 완전 정복](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=278341980)
 - [한번에 이해되는 Oracle SQL & PL/SQL](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=43633426&start=slayer)
 - [Do it! HTML + CSS + 자바스크립트 웹 표준의 정석](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=260235280)
+- [코드로 배우는 스프링 웹 프로젝트](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=166270352&start=slayer)
+- [예제로 배우는 스프링 부트 입문](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=256790137&start=slayer)
+- [스프링 부트 3 백엔드 개발자 되기 : 자바 편](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=315742581)
 
 ## 📑 학습내용
 
