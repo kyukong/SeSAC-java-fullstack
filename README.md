@@ -86,6 +86,13 @@
 | 2  | 11/28(화) | xml 설정 파일, 스프링 빈 등록 및 조회, 의존성 주입, Spring 빈 등록 동작 과정      | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/5.%20spring/%5B11-28%5Dxml_%EC%84%A4%EC%A0%95_%ED%8C%8C%EC%9D%BC%2C%EC%8A%A4%ED%94%84%EB%A7%81_%EB%B9%88_%EB%93%B1%EB%A1%9D_%EB%B0%8F_%EC%A1%B0%ED%9A%8C%2C%EC%9D%98%EC%A1%B4%EC%84%B1_%EC%A3%BC%EC%9E%85%2CSpring_%EB%B9%88_%EB%93%B1%EB%A1%9D_%EB%8F%99%EC%9E%91%20%EA%B3%BC%EC%A0%95.md) |
 | 3  | 11/29(수) | Test, MyBatis, Spring MVC, Controller                    | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/5.%20spring/%5B11-29%5DTest%2CMyBatis%2CSpring_MVC%2CController.md)                                                                                                                                                                                                                         |
 | 4  | 11/30(목) | 파일 업로드, MyBatis CRUD                                     | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/5.%20spring/%5B11-30%5D%ED%8C%8C%EC%9D%BC_%EC%97%85%EB%A1%9C%EB%93%9C%2CMyBatis_CRUD.md)                                                                                                                                                                                                    |
+| 5  | 12/1(목)  | 실행 계획, 인덱스, 힌트, ROWNUM                                   | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/5.%20spring/%5B12-1%5D%EC%8B%A4%ED%96%89_%EA%B3%84%ED%9A%8D%2C%EC%9D%B8%EB%8D%B1%EC%8A%A4%2C%ED%9E%8C%ED%8A%B8%2CROWNUM.md)                                                                                                                                                                 |
+
+### [7. Cloud](https://github.com/kyukong/SeSAC-java-fullstack/tree/main/7.%20cloud)
+
+| No | Date     | Subject | Content                     | Link                                                                                                                                                                                                    |
+|----|----------|---------|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1  | 12/18(월) | AWS     | 온프레미스, 클라우드, X as a Service | [Link](https://github.com/kyukong/SeSAC-java-fullstack/blob/main/7.%20cloud/%5B12-18%5D_AWS_(%EC%98%A8%ED%94%84%EB%A0%88%EB%AF%B8%EC%8A%A4%2C%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%2CX_as_a_Service).md) |
 
 ## 👩🏻‍💻 개인 프로젝트
 
