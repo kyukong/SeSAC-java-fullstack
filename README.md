@@ -24,6 +24,7 @@
 - [예제로 배우는 스프링 부트 입문](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=256790137&start=slayer)
 - [스프링 부트 3 백엔드 개발자 되기 : 자바 편](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=315742581)
 - [AWS로 시작하는 인프라 구축의 정석](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=295374875&start=slayer)
+- [그림과 실습으로 배우는 도커 & 쿠버네티스](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=291419629)
 
 ## 📑 학습내용
 
