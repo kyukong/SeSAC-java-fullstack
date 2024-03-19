@@ -127,8 +127,10 @@
 ## 👩🏻‍🏫 프로젝트
 
 - [Servlet Framework 프로젝트 (11/14 ~ 11/15)](https://github.com/kyukong/SeSAC-Servlet-Framework)
-- [1차 프로젝트 - H-Mingle (11/27 ~ 12/15)](https://github.com/H-Mingle)
+- [1차 프로젝트 - H-Mingle(Mingle) (11/27 ~ 12/15)](https://github.com/H-Mingle)
+- [2차 프로젝트 - Dinosoul(AOAO) (1/16 ~ 1/30)](https://github.com/H2-AOAO)
+- [3차 프로젝트 - The Pop(한살차이) (1/31 ~ 3/15)](https://github.com/Team-OYA)
 
 ## 📋 스터디
 
-- [코딩테스트 스터디 (11/3 ~ )](https://github.com/kyukong/SeSAC-Algo)
+- [코딩테스트 스터디 (11/3 ~ 3/15)](https://github.com/kyukong/SeSAC-Algo)
